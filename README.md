@@ -43,7 +43,7 @@ A Spring Boot REST API project demonstrating a **many-to-many relationship** bet
 
 ### 🔁 PUT Endpoint
 - `/restaurant` – Fully update a restaurant
-- `/delivery_app` – Fully update a delivery app
+- `/delivery_app/{id}` – Fully update a delivery app
 
 ### 🗑️ DELETE Endpoints
 - `/delivery_app` – Delete all delivery apps and their restaurants
