@@ -29,25 +29,25 @@ A Spring Boot REST API project demonstrating a **many-to-many relationship** bet
 
 ### 📤 GET Endpoints
 - `/restaurants` – Get all restaurants with associated delivery apps
-- `/apps` – Get all delivery apps with associated restaurants
+- `/delivery_app` – Get all delivery apps with associated restaurants
 - `/restaurant/{id}` – Get a specific restaurant by ID
-- `/app/{id}` – Get a specific delivery app by ID
-- `/restaurant/name/{name}` – Get a restaurant by name
+- `/delivery_app/{id}` – Get a specific delivery app by ID
+- `/restaurant?name=Yourname` – Get a restaurant by name
 
 ### 📥 POST Endpoint
-- `/app` – Add a new delivery app with associated restaurants
+- `/delivery_app` – Add a new delivery app with associated restaurants
 
 ### ♻️ PATCH Endpoint
 - `/restaurant` – Partially update a restaurant
-- `/app` – Partially update a delivery app
+- `/delivery_app` – Partially update a delivery app
 
 ### 🔁 PUT Endpoint
 - `/restaurant` – Fully update a restaurant
-- `/app` – Fully update a delivery app
+- `/delivery_app` – Fully update a delivery app
 
 ### 🗑️ DELETE Endpoints
-- `/apps` – Delete all delivery apps and their restaurants
-- `/app/{id}` – Delete an app and associated restaurants
+- `/delivery_app` – Delete all delivery apps and their restaurants
+- `/delivery_app/{id}` – Delete an app and associated restaurants
 
 ---
 
